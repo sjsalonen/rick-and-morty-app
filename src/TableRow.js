@@ -6,7 +6,6 @@ const Image = styled.img`
     float: left;
     margin-right: 10px;
     display: flex;
-    cursor: pointer;
 `;
 
 const TableRow = (props) => (
