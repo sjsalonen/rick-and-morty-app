@@ -13,6 +13,7 @@ This app is a React- and Redux-based application for fetching data related to <i
 The application has the following features:
 
 <ul>
+    <li>Using Webpack and Webpack Dev Server for bundling and development</li>
     <li>Fetching data from the API with Axios</li>
     <li>Using Redux for state management and storing the API data</li>
     <li>Rendering the data in an HTML table</li>
@@ -23,6 +24,7 @@ The application has the following features:
 Caveats:
 
 <ul>
+    <li>Production build is not fully optimized as it uses Webpack's default settings</li>
     <li>Use of a separate Container-component was for including more routes, namely a "Details"-page, but I didn't want to spend too much time on this yet</li>
     <li>UI is not pretty to look at, as the small styles in styled components are namely just for proving the concept</li>
 </ul>
